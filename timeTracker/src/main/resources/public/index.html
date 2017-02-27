@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Personal Time Tracker</title>
+        <meta name="description" content="Time Tracker application to record personal working time">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/lib/jquery.datetimepicker.min.css">
+        <link rel="stylesheet" href="css/lib/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="well">
+            <div class="container">
+                <button id="startTimeTracking" class="btn btn-success btn-lg" type="submit">Start time tracking</button>
+            </div>
+            <div class="container">
+                <form class="form-inline">
+                    <label>History start</label>
+                    <input id="dateStart" class="form-control" type="text">
+                    <label>History end</label>
+                    <input id="dateEnd" class="form-control" type="text">
+                    <button id="fetchHistory" class="btn btn-default btn-lg" type="submit">Fetch history</button>
+                </form>
+            </div>
+            <div id="history" class="container">
+            </div>
+        </div>
+        <script src="js/lib/jquery-3.1.1.min.js"></script>
+        <script src="js/lib/jquery.datetimepicker.full.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
