@@ -40,7 +40,7 @@ import se.mah.time.tracker.master.representation.TrackTime;
  */
 public class WebApi {
 
-	public static final int SERVER_PORT = 8080;
+	public static final int SERVER_PORT = 8585;
 	private static final String WEB_PAGE_FOLDER = "/public";
 	private static final Gson GSON = new GsonBuilder().create();
 	private static final String USE_TRACK_TIME = "USE track_time";
